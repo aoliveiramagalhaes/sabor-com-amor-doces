@@ -892,7 +892,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1036,7 +1038,7 @@ section {
   color: #ffb03b;
 }
 
-.events .event-item .price {
+/* .events .event-item .price {
   font-size: 26px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -1045,7 +1047,7 @@ section {
 
 .events .event-item .price span {
   border-bottom: 2px solid #ffb03b;
-}
+} */
 
 .events .event-item ul {
   list-style: none;
