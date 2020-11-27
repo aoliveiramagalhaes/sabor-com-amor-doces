@@ -1,10 +1,3 @@
-/**
-* Template Name: Delicious - v2.1.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -157,7 +150,7 @@ h6 {
   display: block;
   position: relative;
   color: white;
-  padding: 9px 14px;
+  padding: 9px 10px;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 500;
@@ -1397,12 +1390,20 @@ section {
   color: #7a7368;
 }
 
+.contact .info a {
+  color: #7a7368;
+}
+
+.contact .info:hover a {
+  color: #ffb03b;
+}
+
 .contact .info:hover i {
   background: #ffb03b;
   color: #fff;
 }
 
-.contact .php-email-form {
+/* .contact .php-email-form {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
@@ -1485,7 +1486,7 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #ffa012;
-}
+} */
 
 @-webkit-keyframes animate-loading {
   0% {
